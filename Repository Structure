@@ -1,0 +1,9 @@
+├── scripts/
+│   └── split_data.py       # Python script to chunk the 10GB file
+├── snowflake_sql/
+│   ├── setup_stage.sql     # Integration between S3 and Snowflake
+│   ├── table_schema.sql    # DDL for Yelp tables
+│   └── analytics_queries.sql # The "Business Intelligence" part
+├── architecture_diagram.png # (Optional) A simple flow chart
+├── .gitignore              # To ensure you don't accidentally upload 10GB
+└── README.md               # The project documentation
